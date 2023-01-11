@@ -1,0 +1,13 @@
+body {
+    background-color:black;
+    background-repeat:no-repeat;
+    margin:0;
+    padding:10px 20px;
+}
+
+p {
+    color:white;
+    font-family: papyrus;
+    font-size:14;
+    margin-bottom:6px;
+}

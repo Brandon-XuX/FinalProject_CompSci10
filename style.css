@@ -1,0 +1,141 @@
+#intro-header {
+    font-size:100px;
+    right:-15%;
+    position:relative;
+    color:white;
+}
+
+#intro-header, #menu {
+    font-family:papyrus;
+}
+
+body {
+    background-image:url("https://media.sketchfab.com/models/b5c9fe79d00f41df9b40a8d25d1eb82c/thumbnails/e694ca5bc22746818d10055e29a78959/bc89a10c22254b1d8cc1fd2bc8245f33.jpeg");
+    background-repeat:no-repeat;
+    margin:0;
+}
+
+#menu {
+    font-size:120px;
+    text-align:center;
+    position:relative;
+    color:white;
+    top:100px;
+}
+
+#play {
+    width:500px;
+    position:relative;
+    cursor:pointer;
+    right:-36%;
+}
+
+#credits {
+    width:800px;
+    cursor:pointer;
+    position:relative;
+    right:-30%;
+}
+
+#play:hover, #credits:hover {
+    filter: opacity(0.5);
+    background-color:black;
+}
+
+#credit-div {
+    width:0px;
+    filter:opacity(0.5);
+    height:0px;
+    position:relative;
+    top:-600px;
+    background-color:black;
+    left:325px;
+    display:none;
+    font-size:30px;
+}
+
+#credits-exit {
+    width:0px;
+    height:0px;
+    background-color:red;
+    filter:opacity(0.5);
+    position:absolute;
+    right:-1px;
+    font-size:40px;
+    display:none;
+    font-family:arial;
+    text-align:center;
+    cursor:pointer;
+}
+
+#difficulty {
+    width:0px;
+    height:0px;
+    left:16%;
+    top:-900px;
+    background-color:black;
+    filter:opacity(0.5);
+    font-size:50px;
+    position:relative;
+    font-family:fantasy;
+    text-align:center;
+}
+
+#nightmare, #death-mode, #impossible {
+    background-color:violet;
+    border-radius:15px;
+    cursor:pointer;
+    position:absolute;
+    left:28%;
+    text-align:center;
+    filter:opacity(2);
+}
+
+#nightmare {
+    width:0px;
+    height:0px;
+    top:10%;
+    filter:opacity(2);
+    background-color:violet;
+}
+
+#death-mode {
+    width:0px;
+    top:30%;
+    height:0px;
+    background-color:#75190A;
+    color:white;
+}
+
+#impossible {
+    width:0px;
+    top:50%;
+    height:0px;
+    background-color:purple;
+    color:white;
+}
+
+h2 {
+    display:none;
+    font-size:60px;
+    font-family:papyrus;
+}
+
+#nightmare:hover {
+    width:510px;
+    height:210px;
+}
+
+#difficulty-exit {
+    width:0px;
+    height:0px;
+    background-color:red;
+    filter:opacity(0.5);
+    position:absolute;
+    cursor:pointer;
+    font-size:40px;
+    right:0px;
+    display:none;
+    font-family:arial;
+    text-align:center;
+}
